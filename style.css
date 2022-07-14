@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(./asset/meong.jpg);
+}	
+
+header {
+	padding-top: 40px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.h3-header{
+	padding-top: 10px;
+	font-style: italic;
+}
+
+.form-container{
+	margin: 20px auto;
+	width: 50vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-family: 'arial';
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1rem;
+	border-radius: 0.5rem;
+}
+
+.group-name{
+	/*padding-top: 20px;
+	padding-bottom: 10px;*/
+	padding: 1rem;
+}
+
+.label{
+	width: 100%;
+	padding: 0.5rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	border-left: : 20px white;
+}
+
+.clue{
+	font-size: 0.8rem;
+	margin-right: 1rem;
+}
+
+.form-control{
+	width: 100%;
+	padding: 0.3rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	border-left: 20px white;
+	color: #495057;
+}
+
+.input-radio, .input-checkbox{
+	display: inline-block;
+	margin-right: 0.6rem;
+	min-height: 0.8rem;
+	min-width: 0.8rem;
+}
+
+.radio{
+	padding-top: 0.5rem;
+	
+}
+
+.radio label {
+	align-items: center;
+}
+
+.input-textarea{
+	min-height: 120px;
+	width: 100%;
+	padding: 0.6rem;
+	resize: vertical;
+	border-radius: 0.5rem;
+	color: #495057;
+}
+
+.input-buton{
+	width: 100%;
+	display: block;
+	background-color: green;
+	border-radius: 0.5rem;
+	color: inherit;
+	cursor: pointer;
+	padding: 0.7rem;
+	border: none;
+}
+
+@media screen and (max-width: 1280px) {
+	.form-container {
+		width: 70vw;
+	}
+}
